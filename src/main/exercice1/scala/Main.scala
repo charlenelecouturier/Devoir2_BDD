@@ -20,7 +20,7 @@ object Main extends App {
     .getOrCreate()
 
   import spark.implicits._
-  val path = "./src/main/crawler/data.json"
+  val path = "./src/main/exercice1/crawler/data.json"
   val monsters = spark.read.json(path)
 
   // The inferred schema can be visualized using the printSchema() method
@@ -41,13 +41,13 @@ val viewExploded= monsters.withColumn("spells", explode($"spells"))
 //2 methodes of saving datas
 
 //save the rdd as txt
-  view.rdd.map(x => x.mkString(",")).saveAsTextFile("data.txt")
+  view.rdd.map(x => x.mkString(",")).saveAsTextFile("./src/main/exercice1/data.txt")
 
   //save the dataframe as csv
   val stringify = udf((vs: Seq[String]) => vs match {
     case null => null
     case _    => s"""[${vs.mkString(",")}]"""
   })
-  view.withColumn("monsters", stringify($"monsters")).write.csv("data.csv")
+  view.withColumn("monsters", stringify($"monsters")).write.csv("./src/main/exercice1/data.csv")
 
 }
