@@ -1,6 +1,9 @@
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.sql.{Row, SparkSession}
-import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.{Row, SparkSession, functions}
+import org.apache.spark.sql.functions._
+
+import scala.collection.mutable
+
 
 object Main extends App {
   val conf = new SparkConf()
@@ -20,13 +23,17 @@ object Main extends App {
   val monsters = spark.read.json(path)
 
   // The inferred schema can be visualized using the printSchema() method
-  //monsters.show();
-val monstersRDD : RDD[Row]=monsters.rdd
- monstersRDD.take(5).foreach(println)
-
-  val batchViewSpellMonsters = monstersRDD.flatMap(monster=>
-    monster.spells.map(spell => (spell, monster.name))
-  ).groupByKey()
+ // monsters.show();
+val viewExploded= monsters.withColumn("spells", explode($"spells"))
+  var view = viewExploded.groupBy("spells").agg(functions.collect_set("name") as "monsters");
 
 
+
+
+
+  view.foreach { row =>
+    row.toSeq.foreach{col => println(col) }
+  }
+
+ // view.rdd.map(x => x.mkString(",")).saveAsTextFile("./src/main/crawler/data.txt")
 }
