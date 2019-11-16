@@ -9,7 +9,7 @@ function EcrireJson(jsonObj) {
 
 
     let donnees = JSON.stringify(jsonObj)
-    fs.writeFileSync('dataset.json', donnees)
+    fs.writeFileSync('data.json', donnees)
 }
 
 function crawlLien(callback = null) {
