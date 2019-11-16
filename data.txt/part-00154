@@ -1,0 +1,8 @@
+control winds,WrappedArray(Dragon, Dwiergeth, Ijiraq, Giant, Anemos, Storm Hag, Kraken, Druids, Yuki-Onna, Imperial Dragon, Oceanid, Agathion, Demon Lord, Cetus, Flying Polyp)
+dictum,WrappedArray(Temple, Devil, Aeon, Angel, Inevitable)
+gallant inspiration,WrappedArray(Muse)
+inflict serious wounds,WrappedArray(Dragon, Soulbound Doll, Dybbuk, Aeon, Serpentfolk, Ghouls, Bugbears, Intellect Devourer, Sceaduinar, Fire Giants, Taniniver, Ogres, Devourer)
+mending,WrappedArray(Experts, Clerics, Dragon Disciples, Lampad, Kobolds, Druids, Pathfinder Chroniclers, Lamia Matriarch, Ghouls, Frost Giants, Garuda, Lammasu, Ratfolk, Empyreal Lord, Eldritch Knights, Imperial Dragon, Mystic Theurges, Troglodytes, Boggards, Road, Homunculus, Arcane Tricksters, Wizards, Vampires, Dragon, Ravener, Sorcerers, Leshy, Aeon, Rakshasa, Kirin, Vampire, Formian, Frontier, Devilbound Creature, Monks, Brownie, Gearghost, Bards, Lizardfolk, Ogres, Arcane Archers, Adepts, Scholars)
+spider climb,WrappedArray(Experts, Lampad, Assassins, Devil, Druids, Aristocrats, Clockwork, Drake, Ratfolk, Elemental, Morlock, Tikbalang, Troglodytes, Cold Rider, Barbarians, Arcane Tricksters, Wizards, Asura, Sorcerers, Dragon, Retriever, Akaname, Marauders, Vampire, Frontier, Lizard, Ratling, Rogues, Blood Hag, Winter Hag)
+water breathing,WrappedArray(Dragon, Vodyanoi, Clerics, Giant, Sailors, Nixie, Genie, Leshy, Druids, Frost Giants, Vahana, Drow, Devilbound Creature, Golem, Rangers, Qallupilluk, Oceanid, Nymph, Julunggali, Oni, Green Hag, Devils, Div, Loremasters, Arcane Tricksters)
+wind walk,WrappedArray(Dragon, Clerics, Qlippoth, Genie, Wendigo, Kirin, Azata, Great Old One, Adlet, Flying Polyp, Norn, Angels)

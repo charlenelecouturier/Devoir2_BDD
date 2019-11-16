@@ -1,0 +1,8 @@
+control water,WrappedArray(Dragon Disciples, Druids, Genie, Apkallu, Nereid, Nuckelavee, Elemental, Imperial Dragon, Agathion, Scylla, Boggards, Cetus, Oni, Demon, Shen, Dragon, Vodyanoi, Rusalka, Giants, Daemon, Mobogo, Robot, Oceanid, Demon Lord, Julunggali, Grodair, Abaia, Devils, Div)
+corrosive touch,WrappedArray(Svartalfar, Serpentfolk, Troglodytes, Lizardfolk)
+mass heal,WrappedArray(Archons, Thriae, Angel, Titan, Danava, Archon, Angels)
+power word blind,WrappedArray(Sorcerers, Dragon, Imperial Dragon, Angel, Arcane Tricksters, Wizards)
+screech,WrappedArray(Trolls, Orcs)
+secret chest,WrappedArray(Golem, Mercane)
+stone tell,WrappedArray(Pyschopomp, Giant, Lampad, Genie, Seilenos, Azata, Korred, Pech, Kami, Loremasters)
+vengeful outrage,WrappedArray(Ophiotaurus, Seilenos)

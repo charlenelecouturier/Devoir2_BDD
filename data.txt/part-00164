@@ -1,0 +1,8 @@
+awaken construct,WrappedArray(Manasaputra)
+cure moderate wounds,WrappedArray(Experts, Dragon Disciples, Sphinx, Bugbears, Frost Giants, Tribe, Ratfolk, Empyreal Lord, Half-Celestial, Goblins, Paladins, Fastachee, Duergar, Barbarians, Archon, Vampires, Dragon, Rakshasa, Kami, Drow, Commoners, Warriors, Egregore, Bagiennik, Bards, Lizardfolk, Unicorn, Intellect Devourer, Angel, Fire Giants, Gnolls, Arcane Archers, Couatl, Clerics, Giant, Kobolds, Druids, Pathfinder Chroniclers, Entertainers, Aristocrats, Lammasu, Angels, Rangers, Heretics, Temple, Mystic Theurges, Orcs, Nymph, Troglodytes, Hobgoblins, Azatas, Boggards, City Watch, Arcane Tricksters, Wizards, Sorcerers, Shedu, Monks, Rogues, Shadowdancers, Serpentfolk, Sahuagin, Fighters, Ogres, Adepts, Loremasters)
+detect chaos,WrappedArray(Hag Eye Ooze, Isitoq, Night Hag, Shedu, Temple, Aeon, Couatl, Apkallu, Shinigami, Pixie, Inevitable)
+dream council,WrappedArray(Manasaputra, Dragon, Esoteric, Lotus Tree)
+ghoul touch,WrappedArray(Rokurokubi, Zuvembie, Necrophidius, Devourer, Wizards)
+mark of justice,WrappedArray(Empyreal Lord, Inevitable, Clerics, Apkallu, Angels)
+negate aroma,WrappedArray(Duergar, Drow, Ratfolk)
+web,WrappedArray(Vampires, Dragon, Ravener, Sorcerers, Dragon Disciples, Pathfinder Chroniclers, Clockwork, Drider, Vampire, Tribe, Devilbound Creature, Eldritch Knights, Mystic Theurges, Serpentfolk, Bards, Lizardfolk, Arcane Archers, Adepts, Loremasters, Wizards)

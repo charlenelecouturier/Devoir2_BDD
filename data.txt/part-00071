@@ -1,0 +1,7 @@
+call lightning storm,WrappedArray(Dragon, Hamadryad, Imperial Dragon, Storm Hag, Valkyrie, Druids, Loremasters)
+detect scrying,WrappedArray(Argus, Guardian Dragon, Agathions)
+explode head,WrappedArray(Golems, Vishap)
+lily pad stride,WrappedArray(Leshy, Flytrap)
+mass inflict moderate wounds,WrappedArray(Hundun, Fire Giants, Ogres)
+mind thrust IV,WrappedArray(Manasaputra, Nulmind)
+overwhelming grief,WrappedArray(Griefgall)

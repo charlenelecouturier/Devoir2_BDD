@@ -1,0 +1,6 @@
+bless weapon,WrappedArray(Paladins, Rangers, Mystic Theurges, Crusaders, Aristocrats)
+command,WrappedArray(Graven Guardian, Clerics, Ghouls, Frost Giants, Azata, Lammasu, Tribe, Ratfolk, Empyreal Lord, Goblins, Heretics, Temple, Qlippoth, Agathion, Troglodytes, Oni, Demon, Scarecrow, Pyschopomp, Samsaran, Aasimar, Aeon, Rakshasa, Drow, Inevitable, Seers, Penanggalen, Sahuagin, Bards, Adepts, Loremasters)
+forcecage,WrappedArray(Pyschopomp, Dragon, Ravener, Kyton, Imperial Dragon, Colour Out of Space, Green Hag, Div, Wizards)
+hallucinatory terrain,WrappedArray(Broken Soul, Dragon, Ijiraq, Living Mirage, Pathfinder Chroniclers, Bards, Great Old One, Azata, Div)
+mental barrier II,WrappedArray(Dragon, Esoteric)
+shapechange,WrappedArray(Empyreal Lord, Chaos Beast, Demon Lord, Rakshasa, Elohim, Animal Lord)

@@ -1,0 +1,5 @@
+create demiplane,WrappedArray(Elohim)
+dispel evil,WrappedArray(Archons, Dragon, Aeon, Kami, Angels, Paladins, Agathion, Demilich, Demon Lord, Great Old One, Angel, Nemhain, Demon, Animate Dream, Devourer, Archon)
+holy sword,WrappedArray(Paladins)
+lesser geas,WrappedArray(Soulbound Mannequin, Golem, Dragon, Soulbound Doll, Imperial Dragon, Myceloid, Dorvae, Aeon, Bards, Caryatid Column, Gorynych, Inevitable)
+meteor swarm,WrappedArray(Eldritch Knights, Colossus, Sorcerers, Devil, Great Old One, Fire Giants, Titan, Archon, Wizards)

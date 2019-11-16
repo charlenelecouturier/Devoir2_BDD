@@ -1,0 +1,7 @@
+align weapon,WrappedArray(Urdefhan, Clerics, Mercenaries, Aeon, Entertainers, Frost Giants, Azata, Mummy Lord, Drow, Agathion, Fighting School, Angel, Devils, Div, Barbarians, Archon)
+create pit,WrappedArray(Kobolds, Ramidreju)
+insect plague,WrappedArray(Daemon, Dragon, Clerics, Immortal Ichor, Druids, Boggards, Fire Giants, Div, Azruverda, Loremasters)
+malicious spite,WrappedArray(Sahkil)
+mind probe,WrappedArray(Psychemental, Vishap, Tulpa, Apkallu, Lotus Tree)
+saving finale,WrappedArray(Muse)
+summon monster II,WrappedArray(Clerics, Heretics, Orcs, Boggards, Bugbears, Bards, Great Old One)

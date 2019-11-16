@@ -1,0 +1,6 @@
+control undead,"[Immortal Ichor,Pukwudgie,Ghouls,Wyrmwraith,Devourer]"
+delay poison,"[Clerics,Dragon Disciples,Mercenaries,Aristocrats,Frost Giants,Drow,Paladins,Rangers,Temple,Mystic Theurges,Lizardfolk,Adepts,Loremasters,Arcane Tricksters,Wizards]"
+detect undead,"[Pyschopomp,Eldritch Knights,Sayona,Clerics,Agathion,Shredskin,Ghouls,Dhampir,Wyrmwraith,Arcane Archers,Wizards]"
+false life,"[Vampires,Dragon,Ravener,Sorcerers,Dragon Disciples,Guardian Scroll,Ghouls,Soulbound Shell,Vampire,Dragon, Esoteric,Lich,Devilbound Creature,Eldritch Knights,Soulbound Mannequin,Golem,Goblins,Soulbound Doll,Tanuki,Mystic Theurges,Orcs,Serpentfolk,Hobgoblins,Lizardfolk,Arcane Archers,Arcane Tricksters,Wizards]"
+symbol of death,"[Great Old One,Demon]"
+temporal stasis,"[Qlippoth,Aeon,Tzitzimitl,Protean]"

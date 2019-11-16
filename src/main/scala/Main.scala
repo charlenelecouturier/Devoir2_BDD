@@ -1,6 +1,7 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{Row, SparkSession, functions}
 import org.apache.spark.sql.functions._
+import org.apache.spark.sql.Column
 
 import scala.collection.mutable
 
@@ -35,5 +36,18 @@ val viewExploded= monsters.withColumn("spells", explode($"spells"))
     row.toSeq.foreach{col => println(col) }
   }
 
- // view.rdd.map(x => x.mkString(",")).saveAsTextFile("./src/main/crawler/data.txt")
+
+
+//2 methodes of saving datas
+
+//save the rdd as txt
+  view.rdd.map(x => x.mkString(",")).saveAsTextFile("data.txt")
+
+  //save the dataframe as csv
+  val stringify = udf((vs: Seq[String]) => vs match {
+    case null => null
+    case _    => s"""[${vs.mkString(",")}]"""
+  })
+  view.withColumn("monsters", stringify($"monsters")).write.csv("data.csv")
+
 }

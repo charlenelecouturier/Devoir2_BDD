@@ -1,0 +1,7 @@
+ant haul,WrappedArray(Fastachee)
+arcane sight,WrappedArray(Graeae, Dragon, Argus, Qlippoth, Leng Spider, Tzitzimitl, Troglodytes, Abaia, Wizard's Shackle, Xacarba, Loremasters)
+aura sight,WrappedArray(Dragon, Esoteric)
+create water,WrappedArray(Clerics, Glaistig, Druids, Genie, Ghouls, Bugbears, Frost Giants, Apkallu, Magma Ooze, Ratfolk, Angels, Empyreal Lord, Imperial Dragon, Paladins, Heretics, Temple, Mystic Theurges, Shabti, Fastachee, Troglodytes, Boggards, Demon, Gremlin, Shen, Dragon, Aeon, Kirin, Frontier, Mobogo, Oceanid, Shard Slag, Lizardfolk, Julunggali, Undine, Fire Giants, Ogres, Adepts)
+reduce person,WrappedArray(Sorcerers, Dragon, Dragon Disciples, Genie, House Spirit, Clockwork, Ratfolk, Goblins, Trolls, Worm That Walks, Firbolg, Atomie, Bards, Intellect Devourer, Fire Giants, Arcane Archers, Wizards)
+summon monster III,WrappedArray(Devilbound Creature, Eldritch Knights, Clerics, Kobolds, Heretics, Worm That Walks, Mystic Theurges, Sahuagin, Bards, Couatl, Angel)
+symbol of persuasion,WrappedArray(Sphinx, Demon Lord, Great Old One, Mummified Creature, Demon)
