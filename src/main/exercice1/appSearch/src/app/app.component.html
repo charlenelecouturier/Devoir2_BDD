@@ -1,0 +1,24 @@
+<div class="container">
+<br>
+<div class="row">
+  <div class="title"><h1>Spell Finder</h1>
+  
+  </div>
+  <div class="col-sm-8 col-sm-offset-2">
+    <form #form="ngForm" (ngSubmit)="onSubmit(f" >
+      <div class="form-group">
+        <label for="name">
+         Mots clés
+        </label>
+        <input type="text" id="mots" class="form-control">
+        
+      </div>
+      <button class="btn btn-primary" type=submit>Rechercher</button>
+
+    </form>
+    <br>
+   {{champMot}}
+  </div>
+</div>
+</div>
+<router-outlet></router-outlet>
