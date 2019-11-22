@@ -1,6 +1,8 @@
-import { Component , OnInit, OnDestroy} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
+import { Alert } from 'selenium-webdriver';
 import { CommonService } from './common.service';
-import {NgForm} from '@angular/forms'
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,28 +11,24 @@ import {NgForm} from '@angular/forms'
 export class AppComponent implements OnInit{
   title = 'appSearch';
   
-Repdata;
-champMot;
-  constructor(private newService :CommonService){
+form;
 
+  constructor(private formBuilder: FormBuilder,private newService :CommonService
+    ) { 
+    
+
+    this.form = this.formBuilder.group({
+      mots:'',
+    });
   }
- ngOnInit(){
 
-  this.newService.GetMonsters()
-  .subscribe(
-    res=>this.Repdata=res,
-    err =>console.log(err)
+  onSubmit(data) {
+   alert(data.mots);
+   this.newService.getSpellsbyKeyWords(data.mots);
+    this.form.reset();
+  }
 
-  )
- }
- onFormSubmit(form: NgForm) {
-   this.champMot=form.value;
-  console.log(form.value);
-}
- ngOnDestroy(){
-  
+  ngOnInit() {
   }
 
 }
-
-

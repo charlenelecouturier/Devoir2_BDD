@@ -5,15 +5,15 @@
   
   </div>
   <div class="col-sm-8 col-sm-offset-2">
-    <form >
-      <div class="form-group">
+    <form  [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+      <div class="form-group" >
         <label for="name">
          Mots clés
         </label>
-        <input type="text" id="mots" class="form-control">
+        <input type="text" id="mots" class="form-control" formControlName="mots">
         
       </div>
-      <button class="btn btn-primary" type=submit>Rechercher</button>
+      <button class="btn btn-primary" type="submit">Rechercher</button>
 
     </form>
     <br>
