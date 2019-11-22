@@ -6,8 +6,6 @@ const fs = require('fs')
 
 function EcrireJson(jsonObj) {
 
-
-
     let donnees = JSON.stringify(jsonObj)
     fs.writeFileSync('data.json', donnees)
 }
@@ -71,6 +69,10 @@ function crawl() {
                             //on decoupe la chaine de caratères pour n'avoir que le nom du spell
                             var debut = spellsArray[i].indexOf(">") + 1;
                             spellsArray[i] = spellsArray[i].slice(debut, -4);
+                            //remplacement des &apos; par ' 
+                            if(spellsArray[i].match("/&apos;/g")){
+                                spellsArray[i] = spellsArray[i].replace('&apos;','\'')
+                            }
                             if (spellsArray[i].indexOf("<em>") != -1) {
                                 spellsArray[i] = spellsArray[i].slice(4, -5);
 
