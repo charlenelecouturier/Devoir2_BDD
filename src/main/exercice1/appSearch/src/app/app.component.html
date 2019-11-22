@@ -7,12 +7,57 @@
   <div class="col-sm-8 col-sm-offset-2">
     <form  [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
       <div class="form-group" >
-        <label for="name">
+        <label for="mots">
          Mots clés
         </label>
         <input type="text" id="mots" class="form-control" formControlName="mots">
         
       </div>
+
+      <div class="form-group" >
+        <label>
+         Composante du sort
+        </label>
+        <br>
+
+        <input type="checkbox" name="composante" value="V"> Verbal
+        <input type="checkbox" name="composante"  value="S"> Somatic
+        <input type="checkbox" name="composante" value="M"> Material
+
+      </div>
+      <div class="form-group" >
+        <label>
+        Level
+        </label>
+        <br>
+
+        <input type="number" name="level" >
+      </div>
+
+      <div class="form-group" >
+        <label>
+         Classe du sort
+        </label>
+        <br>
+
+        <input type="checkbox" name="class" value="sorcerer/wizard">sorcerer/wizard  
+        <input type="checkbox" name="class" value="ranger"> ranger
+        <input type="checkbox" name="class" value="summoner"> summoner
+        <input type="checkbox" name="class" value="inquisitor">inquisitor
+        <input type="checkbox" name="class" value="antipaladin"> antipaladin
+
+        <input type="checkbox" name="class" value="cleric/oracle"> cleric/oracle<br>
+        <input type="checkbox" name="class" value="shaman"> shaman 
+        <input type="checkbox" name="class" value="alchemist"> alchemist
+        <input type="checkbox" name="class" value="witch"> witch
+        <input type="checkbox" name="class" value="druid"> druid
+        <input type="checkbox" name="class" value="paladin"> paladin
+        <input type="checkbox" name="class" value="bard">bard
+
+        <input type="checkbox" name="class" value="magus"> magus
+        <input type="checkbox" name="class" value="bloodrager"> bloodrager
+      </div>
+
       <button class="btn btn-primary" type="submit">Rechercher</button>
 
     </form>
