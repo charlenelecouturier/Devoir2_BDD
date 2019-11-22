@@ -16,7 +16,7 @@ return this.http.get<any>('http://localhost:3000/api/getMonster');
 
 
 getSpellsbyKeyWords(mots){
-  return this.http.post('http://localhost:3000/api/SearshByKeyWords',mots);
+  return this.http.post<any>('http://localhost:3000/api/Searsh',mots);
 
 }
 }

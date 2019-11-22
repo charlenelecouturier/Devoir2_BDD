@@ -3,3 +3,15 @@
 margin-bottom: 5%;
 text-align: center;
 }
+
+#Global
+{
+    width:100%;
+}
+#Global #gauche {
+    float:left;
+    width:60%;
+}
+#Global #droite {
+    margin-left:60%    
+}

@@ -10,7 +10,10 @@ import { CommonService } from './common.service';
 })
 export class AppComponent implements OnInit{
   title = 'appSearch';
-  
+  result={
+   spells:[{name:""}],
+    monsters:[{name:""}]
+    };
 form;
 componentsdata;
 classdata;
@@ -83,7 +86,11 @@ classdata;
     .filter(v => v !== null);
     data.class=classIds;
     data.component=selectedComponentsIds;
-    this.newService.getSpellsbyKeyWords(data);
+    this.newService.getSpellsbyKeyWords(data).subscribe(
+      res=> {
+         this.result = res;
+       }
+     );;
 
   alert(data.component);
   this.form.reset();
