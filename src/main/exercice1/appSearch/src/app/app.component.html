@@ -15,15 +15,18 @@
       </div>
 
       <div class="form-group" >
-        <label>
-         Composante du sort
+       
+
+
+        <label formArrayName="component" *ngFor="let order of form.controls.component.controls; let i = index">
+          {{componentsdata[i].name}}
+          <input type="checkbox" [formControlName]="i">
+
         </label>
-        <br>
-
-        <input type="checkbox" name="composante" value="V"> Verbal
-        <input type="checkbox" name="composante"  value="S"> Somatic
-        <input type="checkbox" name="composante" value="M"> Material
-
+      <!-- <input type="checkbox" formControlName="component"> Verbal
+        <input type="checkbox" name="composante"  value="S" formControlName="component"> Somatic
+        <input type="checkbox" name="composante" value="M" formControlName="component"> Material
+-->
       </div>
       <div class="form-group" >
         <label>
@@ -31,33 +34,42 @@
         </label>
         <br>
 
-        <input type="number" name="level" >
+        <input type="number" name="level" class="form-control" formControlName="level">
       </div>
 
-      <div class="form-group" >
+
+
+      
+      <label formArrayName="class" *ngFor="let o of form.controls.class.controls; let i = index">
+        {{classdata[i].name}}
+        <input type="checkbox" [formControlName]="i">
+
+      </label>
+
+    <!-- <div class="form-group" >
         <label>
          Classe du sort
         </label>
         <br>
 
-        <input type="checkbox" name="class" value="sorcerer/wizard">sorcerer/wizard  
-        <input type="checkbox" name="class" value="ranger"> ranger
-        <input type="checkbox" name="class" value="summoner"> summoner
-        <input type="checkbox" name="class" value="inquisitor">inquisitor
-        <input type="checkbox" name="class" value="antipaladin"> antipaladin
+        <input type="checkbox" name="class" value="sorcerer/wizard"  formControlName="class">sorcerer/wizard  
+        <input type="checkbox" name="class" value="ranger"  formControlName="class"> ranger
+        <input type="checkbox" name="class" value="summoner"  formControlName="class"> summoner
+        <input type="checkbox" name="class" value="inquisitor"  formControlName="class">inquisitor
+        <input type="checkbox" name="class" value="antipaladin"  formControlName="class"> antipaladin
 
-        <input type="checkbox" name="class" value="cleric/oracle"> cleric/oracle<br>
-        <input type="checkbox" name="class" value="shaman"> shaman 
-        <input type="checkbox" name="class" value="alchemist"> alchemist
-        <input type="checkbox" name="class" value="witch"> witch
-        <input type="checkbox" name="class" value="druid"> druid
-        <input type="checkbox" name="class" value="paladin"> paladin
-        <input type="checkbox" name="class" value="bard">bard
+        <input type="checkbox" name="class" value="cleric/oracle"  formControlName="class"> cleric/oracle<br>
+        <input type="checkbox" name="class" value="shaman"  formControlName="class"> shaman 
+        <input type="checkbox" name="class" value="alchemist" formControlName="class"> alchemist
+        <input type="checkbox" name="class" value="witch"  formControlName="class"> witch
+        <input type="checkbox" name="class" value="druid"  formControlName="class"> druid
+        <input type="checkbox" name="class" value="paladin"  formControlName="class"> paladin
+        <input type="checkbox" name="class" value="bard"  formControlName="class">bard
 
-        <input type="checkbox" name="class" value="magus"> magus
-        <input type="checkbox" name="class" value="bloodrager"> bloodrager
+        <input type="checkbox" name="class" value="magus"  formControlName="class"> magus
+        <input type="checkbox" name="class" value="bloodrager" formControlName="class"> bloodrager
       </div>
-
+--> <br>
       <button class="btn btn-primary" type="submit">Rechercher</button>
 
     </form>
