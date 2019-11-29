@@ -1,3 +1,2 @@
-Erase,WrappedArray(Tupilaq)
-greater forbid action,WrappedArray(Apkallu)
-remove blindness/deafness,WrappedArray(Clerics, Road)
+greater forbid action,WrappedArray(apkallu)
+remove blindness/deafness,WrappedArray(elemental-priest)

@@ -1,4 +1,3 @@
-Resistance,WrappedArray(Eidolon, Fey Creature, Shadow Creature)
-explosive runes,WrappedArray(Azatas, Fire Giants, Arcane Archers, Wizards)
-greater create demiplane,WrappedArray(Guardian Dragon)
-purify food and water,WrappedArray(Boggards)
+explosive runes,WrappedArray(pyromaniac-mage, azata-raelis, fire-giant-doombringer, chaos-arrow)
+purify food and water,WrappedArray(boggard-priest-king)
+summon nature's ally IV,WrappedArray(nymph, ijiraq)

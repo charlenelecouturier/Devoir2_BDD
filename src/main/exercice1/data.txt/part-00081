@@ -1,4 +1,3 @@
-Greater dispel magic,WrappedArray(Disenchanter)
-dispel chaos,WrappedArray(Axiomite, Devil, Aeon, Great Old One, Demon, Devils)
-dream scan,WrappedArray(Dragon, Esoteric, Lotus Tree)
-share memory,WrappedArray(Jinmenju, Dragon, Muse, Hyakume, Rhu-Chalik)
+dispel chaos,WrappedArray(axiomite, devil-horned)
+dream scan,WrappedArray(ancient-nightmare-dragon, lotus-tree)
+share memory,WrappedArray(jinmenju, rhu-chalik, hyakume)

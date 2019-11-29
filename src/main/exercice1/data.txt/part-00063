@@ -1,4 +1,3 @@
-Ray of enfeeblement,WrappedArray(Ghouls)
-fickle winds,WrappedArray(Anemos, Drow, Angels)
-illusion of calm,WrappedArray(Serpentfolk)
-unseen servant,WrappedArray(Shen, Dragon, Dragon Disciples, Neh-Thalggu, Pathfinder Chroniclers, Witchwyrd, Soulbound Shell, Eldritch Knights, Goblins, Seers, Mystic Theurges, Bards, Arcane Archers, Loremasters, Arcane Tricksters, Scholars)
+fickle winds,WrappedArray(angel-empyrean, drow-matron, anemos)
+illusion of calm,WrappedArray(serpentfolk-illusionist)
+unseen servant,WrappedArray(goblin-variants, dragon-chieftain, neh-thalggu, courtesan, master-historian, witchwyrd, tournament-champion, gambler, aloof-scholar, god-stealer, master-spy, shen, death-master, soulbound-shell, arcanothief, spellsword, sage, hedge-wizard, battle-skald, demonologist, spirit-avenger, seance-medium)

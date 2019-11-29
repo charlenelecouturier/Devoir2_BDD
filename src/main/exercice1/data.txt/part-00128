@@ -1,4 +1,4 @@
-entropic shield,WrappedArray(Monks, Dragon, Clerics, Mystic Theurges, Pathfinder Chroniclers, Troglodytes, Hobgoblins, Ghouls, Sceaduinar, Angel, Gnolls, Ogres, Drow)
-microcosm,WrappedArray(Lotus Tree)
-symbol of weakness,WrappedArray(Great Old One)
-undetectable alignment,WrappedArray(Graeae, Clerics, Heretics, Aeon, Blood Hag, Bards, Barbarians)
+entropic shield,WrappedArray(trickster-priest, drow-priest, wrath-priest, drow-matron, sacred-guardian, sceaduinar, gnoll-chosen, shadow-cleric, death-priest, ogre-king, troglodyte-tyrant, gnoll-clerics, death-master, angel-solar, hobgoblin-battle-priest, ancient-gravedigger, shoreline-cleric, mad-prophet)
+microcosm,WrappedArray(lotus-tree)
+symbol of weakness,WrappedArray(great-old-one-hastur)
+undetectable alignment,WrappedArray(chameleon, cult-leader, shadow-cleric, rival-explorer, cruel-instructor, court-poet)

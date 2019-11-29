@@ -1,4 +1,3 @@
-Minor image,WrappedArray(Kobolds)
-elemental touch,WrappedArray(Fire Giants)
-pernicious poison,WrappedArray(Serpentfolk, Ratfolk)
-plant shape III,WrappedArray(Doppeldrek)
+Minor image,WrappedArray(snake-spear-trap, rotting-badger-under-a-falling-rock-trap, ensnaring-dirt-trap, falling-log-trap, dragonfire-trap, dragon-dung-pit-trap, acid-drop-trap)
+elemental touch,WrappedArray(fire-giant-magmablade)
+pernicious poison,WrappedArray(serpentfolk-illusionist)

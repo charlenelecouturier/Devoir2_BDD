@@ -1,3 +1,3 @@
-mass cure critical wounds,WrappedArray(Druids, Phoenix, Thriae, Angel, Apkallu, Simurgh)
-shadow conjuration,WrappedArray(Shen, Clerics, Ankou, Shadow Creature, Nightmare Creature, Bards, Moon-Beast, Protean, Mummy Lord, Demon, Loremasters, Shadow Collector)
-touch of fatigue,WrappedArray(Sorcerers, Dragon, Ravener, Dragon Disciples, Bugbears, Manananggal, Frost Giants, Tribe, Eldritch Knights, Goblins, Seers, Penanggalen, Trolls, Imperial Dragon, Naga, Gnolls, Fire Giants, , Adepts, Wizards)
+mass cure critical wounds,WrappedArray(apkallu, simurgh, hateful-scourge, angel-solar, phoenix, thriae-queen, taiga-stalker)
+shadow conjuration,WrappedArray(shadow-collector, vivisectionist-cleric, shen, master-historian, spellsword, demon-shadow, mummy-lord, moon-beast)
+touch of fatigue,WrappedArray(troll-elder-matron, gnoll-bouda, seductive-enchanter, ice-mage, goblin-frog-talker, ice-maiden, manananggal, fire-giant-queen, diabolical-charmer, jungle-wizard, chieftain, fiery-dragonkin, frost-giant-ice-mage, bugbear-bloodmage, undead-creator, doomsayer, gem-sorcerer, healer, heretic, arisen-sorcerer, trickster-mage, blackscale-sorcerer, tainted-sorcerer)

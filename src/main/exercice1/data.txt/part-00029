@@ -1,3 +1,2 @@
-displacement,WrappedArray(Clerics, Dragon Disciples, Druids, Frost Giants, Clockwork, Garuda, Ratfolk, Eldritch Knights, Goblins, Imperial Dragon, Paladins, Rangers, Mystic Theurges, Qlippoth, Arcane Tricksters, Wizards, Vampires, Dragon, Ravener, Sorcerers, Witchwyrd, Drow, Devilbound Creature, Daemon, Rogues, Shadowdancers, Naga, Serpentfolk, Bards, Berbalang, Loremasters)
-summon monster I,WrappedArray(Dragon, Clerics, Heretics, Shabti, Astomoi, Orcs, Troglodytes, Boggards, Clockwork, Bards, Fire Giants, Arcane Tricksters)
-versatile weapon,WrappedArray(Orcs, Archon)
+displacement,WrappedArray(puppet-master, natural-arcanist, sound-warrior, master-historian, witchwyrd, ice-maiden, devilbound-creature, jungle-wizard, taiga-stalker, black-ice, garuda, naga-dark, god-stealer, prankster-illusionist, naga-spirit, death-master, acid-terror, cruel-conjurer, demonologist, notorious-foil, serpentfolk-spellblade, drow-poisoner)
+summon monster I,WrappedArray(boggard-prophet, orc-war-drummer, lion-tamer, noble-crusader, fire-giant-queen, troglodyte-sorcerer, shabti)

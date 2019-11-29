@@ -1,5 +1,3 @@
-burst of nettles,WrappedArray(Leshy, Flytrap, Boggards, Tunche)
-chain lightning,WrappedArray(Sorcerers, Dragon, Ravener, Clerics, Giant, Druids, Azata, Titan, Danava, Drake, Inevitable, Eldritch Knights, Lusca, Daemon, Imperial Dragon, Mystic Theurges, Titan, Loremasters, Arcane Tricksters, Sard, Wizards)
-cold ice strike,WrappedArray(Dragon, Hyakume, Bisha Ga Tsuku)
-freedom of movement;,WrappedArray(Protean)
-stone to flesh,WrappedArray(Golem, Dragon, Pech, Troll)
+burst of nettles,WrappedArray(tunche, boggard-swampseer)
+chain lightning,WrappedArray(fate-bound-mage, master-universalist, mage-spy, sard, natural-arcanist, mithral-wizard, titan,-hekatonkheires, azata-ghaele, grand-necromancer, titan-danava, ice-mage, lusca, toothy-transmuter, elemental-priest, demon-blooded-sorcerer, fiery-dragonkin, god-stealer, giant-storm, demonologist)
+cold ice strike,WrappedArray(bisha-ga-tsuku, hyakume)

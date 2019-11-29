@@ -1,2 +1,2 @@
-charge object,WrappedArray(Vishap)
-contagion,WrappedArray(Golem, Sorcerers, Daemon, Clerics, Giant, Mystic Theurges, Tzitzimitl, Nightshade, Demon, Zombie, Drakainia, Nue)
+charge object,WrappedArray(vishap)
+contagion,WrappedArray(tzitzimitl, vivisectionist-cleric, drakainia, death-priest, nue, death-master, arisen-sorcerer)

@@ -1,4 +1,3 @@
-Feather fall,WrappedArray(Sylph)
-clairaudience/clairvoyance,WrappedArray(Dragon, Argus, Dragon Disciples, Sphinx, Aeon, Rakshasa, Mummified Creature, Drider, Formian, Ratfolk, Inevitable, Devilbound Creature, Isitoq, Graeae, Quickwood, Bards, Popobala, Demon, Green Hag, Loremasters, Wizards)
-remove paralysis,WrappedArray(Empyreal Lord, Clerics, Paladins, Mystic Theurges, Agathion, Zombie, Spider Eater, Angels)
-thought shield III,WrappedArray(Psychemental, Vishap)
+clairaudience/clairvoyance,WrappedArray(mummified-creature, argus, dragon-chieftain, mage-spy, mage-sniper, drider, master-spy, master-historian, tribal-seer, cruel-instructor, formian-myrmarch)
+remove paralysis,WrappedArray(mounted-paragon, angel-empyrean, celestial-theurge, sacred-guardian, empyreal-lord-vildeis)
+thought shield III,WrappedArray(psychemental, vishap)

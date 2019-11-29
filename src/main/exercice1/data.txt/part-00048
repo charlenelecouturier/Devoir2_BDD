@@ -1,4 +1,3 @@
-breath of life,WrappedArray(Guardian Dragon, Kyton, Clerics, Valkyrie, Kami, Turul, Angels, Empyreal Lord, Jyoti, Heretics, Temple, Mystic Theurges, Agathion, Fastachee, Gnolls, Agathions, Angel, Ogres, Duergar, Loremasters, Archon)
-disrupt undead,WrappedArray(Pyschopomp, Eldritch Knights, Dragon, Imperial Dragon, Dragon Disciples, Mystic Theurges, Naga, Couatl, Arcane Archers, Wyvaran)
-sanctuary,WrappedArray(Pyschopomp, Clerics, Samsaran, Kobolds, Aeon, Crysmal, Kirin, Ratfolk, Empyreal Lord, Seers, Temple, Agathion, Sahuagin, Boggards, Hobgoblins, Road, Loremasters, Archon)
-slipstream,WrappedArray(Dragon)
+breath of life,WrappedArray(trickster-priest, high-priest, duergar-high-priest, valkyrie, fastachee, elemental-priest, sacred-guardian, divine-loremaster, empyreal-lord-cernunnos, gnoll-chosen, cult-leader, angel-empyrean, ogre-king, angel-solar, guardian-dragon, agathion-cervinal, turul, jyoti, eremite-overlords, profane-general)
+disrupt undead,WrappedArray(couatl, psychopomp-morrigna, undead-bane, ice-maiden, spirit-avenger)
+sanctuary,WrappedArray(high-priest, psychopomp-morrigna, kirin, sahuagin-high-priestess, hobgoblin-battlefield-zealot, archon-trumpet, kobold-devilspeaker, sacred-guardian, divine-loremaster, fire-diabolist, empyreal-lord-korada, ratfolk-elder, boggard-priest-king, medium, crysmal)

@@ -1,4 +1,4 @@
-create food and water,WrappedArray(Dragon, Tanuki, Temple, Genie, Aeon, Kirin, Apkallu)
-piercing shriek,WrappedArray(Broken Soul)
-searing light,WrappedArray(Pyschopomp, Archons, Dragon, Clerics, Sphinx, Pathfinder Chroniclers, Azata, Lammasu, Turul, Empyreal Lord, Jyoti, Temple, Mystic Theurges, Troglodytes)
-sun metal,WrappedArray(Trolls)
+create food and water,WrappedArray(high-priest, apkallu, tanuki, genie-djinni, kirin, genie-janni)
+piercing shriek,WrappedArray(broken-soul)
+searing light,WrappedArray(trickster-priest, high-priest, archon-gate, azata-ghaele, lammasu, psychopomp-vanth, noble-crusader, fire-cleric, empyreal-lord-vildeis, carousing-champion, celestial-theurge, troglodyte-tyrant, turul, mad-prophet, jyoti)
+sun metal,WrappedArray(troll-acolyte)

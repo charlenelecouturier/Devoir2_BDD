@@ -1,4 +1,4 @@
-Burning hands,WrappedArray(Ifrit, Kobolds)
-blindness/deafness,WrappedArray(Sorcerers, Dragon, Clerics, Kobolds, Pathfinder Chroniclers, Svirfneblin, Ghouls, Clockwork, Empyreal Lord, Eldritch Knights, Broken Soul, Lurker in Light, Orcs, Serpentfolk, Boggards, Hobgoblins, Lizardfolk, Gnolls, Bards, Div, Scholars, Wizards)
-mass enlarge person,WrappedArray(Wizards)
-phantasmal killer,WrappedArray(Sorcerers, Dragon, Mothman, Pathfinder Chroniclers, Bogeyman, Dragon, Esoteric, Seugathi, Eldritch Knights, Worm That Walks, Shadowdancers, Animate Dream, Death Coach, Norn, Wizards)
+Burning hands,WrappedArray(snake-spear-trap, rotting-badger-under-a-falling-rock-trap, ensnaring-dirt-trap, falling-log-trap, dragonfire-trap, dragon-dung-pit-trap, acid-drop-trap)
+blindness/deafness,WrappedArray(gnoll-bouda, kobold-devilspeaker, grand-necromancer, lucky-mage, ice-mage, lurker-in-light, sacred-guardian, orc-witch-doctor, div-sepid, chameleon, vivisectionist-cleric, svirfneblin, broken-soul, hobgoblin-battle-priest, undead-creator, ancient-gravedigger, lizardfolk-rattler, sage, arisen-sorcerer, hedge-wizard, mad-prophet, spirit-avenger, serpentfolk-illusionist)
+mass enlarge person,WrappedArray(toothy-transmuter)
+phantasmal killer,WrappedArray(puppet-master, death-coach, natural-arcanist, master-storycrafter, mithral-wizard, seductive-enchanter, norn, worm-that-walks, pyromaniac-mage, black-ice, demon-blooded-sorcerer, prankster-illusionist, ancient-nightmare-dragon, bogeyman, trickster-mage, cruel-conjurer, mothman, ancient-etheric-dragon, seugathi)

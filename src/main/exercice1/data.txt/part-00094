@@ -1,3 +1,3 @@
-animal shapes,WrappedArray(Loremasters)
-deathwatch,WrappedArray(Pyschopomp, Kyton, Clerics, Valkyrie, Samsaran, Aeon, Kami, Taniniver, Elohim, Papinijuwari, Seers, Daemon, Saxra, Demons, Einherji, Heretics, Mystic Theurges, Pukwudgie, Fire Giants, Devils, Death Coach)
-maze,WrappedArray(Loremasters, Ravener, Guardian Dragon, Tikbalang, Minotaur, Devourer, Norn, Will-o'-Wisp, Wizards)
+animal shapes,WrappedArray(nature-scholar)
+deathwatch,WrappedArray(death-coach, valkyrie, pukwudgie, devil-heresy, psychopomp-vanth, fire-giant-doombringer, demon-seraptis, saxra, elohim, cult-leader, vivisectionist-cleric, death-master, medium, taniniver, einherji)
+maze,WrappedArray(norn, guardian-dragon, tikbalang, demonologist)

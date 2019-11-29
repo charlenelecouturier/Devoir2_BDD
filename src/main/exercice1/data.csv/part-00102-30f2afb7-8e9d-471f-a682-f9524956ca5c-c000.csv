@@ -1,0 +1,6 @@
+control undead,"[wyrmwraith,immortal-ichor,devourer]"
+delay poison,"[trickster-priest,lizardfolk-clutch-mother,mounted-paragon,bounty-hunter,axe-lord,demon-hunter,sound-warrior,drow-matron,undead-slayer,giant-killer,sacred-guardian,desert-protector,elven-honorblade,fire-diabolist,frost-giant-houndmaster,shadow-cleric,death-priest,daredevil-hunter,celestial-theurge,fiendslayer,furious-crusader,pious-guard,tunnel-rat,mage-hunter,golem-breaker,profane-general,mithral-master]"
+detect undead,"[psychopomp-morrigna,carousing-champion,wyrmwraith,undead-creator,undead-bane,tribal-seer,spirit-avenger,shredskin]"
+false life,"[fate-bound-mage,natural-arcanist,weird-butler,storm-prophet,fey-enchantress,goblin-vulture-pilot,grand-necromancer,undead-bane,orc-witch-doctor,diabolical-charmer,demon-blooded-sorcerer,yzobu,hobgoblin-bombardier,ghoul-monarch,death-master,soulbound-shell,arcanothief,bloodfire-sorcerer,undead-creator,sacred-sorcerer,adult-etheric-dragon,arisen-sorcerer,blackscale-sorcerer,spirit-avenger,serpentfolk-bone-prophet,ancient-etheric-dragon]"
+symbol of death,[great-old-one-hastur]
+temporal stasis,[tzitzimitl]

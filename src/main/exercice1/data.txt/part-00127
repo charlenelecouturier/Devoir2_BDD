@@ -1,3 +1,1 @@
-Shatter,WrappedArray(Graven Guardian, Golem, Cold Rider)
-mass fly,WrappedArray(Dragon)
-summon monster V,WrappedArray(Devilbound Creature, Eldritch Knights, Sorcerers, Daemon, Dragon, Clerics, Heretics, Temple, Pathfinder Chroniclers, Sahuagin, Bards, Great Old One, Wizards)
+summon monster V,WrappedArray(demon-blooded-sorcerer, high-priest, cult-leader, feeder-in-the-depths, ice-mage, elemental-priest, lion-tamer, devilbound-creature, cruel-conjurer, spirit-avenger)

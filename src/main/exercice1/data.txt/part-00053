@@ -1,4 +1,3 @@
-antimagic field,WrappedArray(Empyreal Lord, Golem, Colossus, Dragon, Clerics, Colossi, Angel, Drow, Arcane Tricksters, Drakainia, Angels)
-cure critical wounds,WrappedArray(Pyschopomp, Ijiraq, Clerics, Dragon Disciples, Kobolds, Druids, Frost Giants, Erlking, Drow, Turul, Golem, Heretics, Agathion, Serpentfolk, Fastachee, Sahuagin, Boggards, Hobgoblins, Phoenix, Bards, Angel, Agathions, Ogres, Duergar, Loremasters, Archon)
-mnemonic enhancer,WrappedArray(Clockwork, Soulbound Shell)
-raise dead,WrappedArray(Ascomoid, Baykok, Vampires, Mothman, Aeon, Soul Eater, Azata, Wight, Shabti, Dark Folk, Caligni, Julunggali, Angel, Nemhain, Spectre, Archon, Duppy)
+antimagic field,WrappedArray(fire-diabolist, shadow-cleric, angel-empyrean, empyreal-lord-korada, drakainia, vaultbreaker, drow-matron)
+cure critical wounds,WrappedArray(earthfather, fey-friend, fastachee, kobold-devilspeaker, ijiraq, taiga-stalker, fire-diabolist, ogre-king, hateful-scourge, rage-flame, turul, tribal-leader, erlking, drow-poisoner, dragon-chieftain, duergar-high-priest, psychopomp-morrigna, drow-matron, master-historian, lion-tamer, cult-leader, frost-giant-houndmaster, serpentfolk-high-priest, angel-solar, phoenix, hobgoblin-battle-priest, boggard-priest-king, agathion-cervinal, castaway, rival-explorer, notorious-foil)
+raise dead,WrappedArray(julunggali, azata-ghaele, archon-trumpet, angel-planetar)

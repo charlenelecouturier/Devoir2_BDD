@@ -1,3 +1,4 @@
-implosion,WrappedArray(Clerics, Agathion, Aeon, Great Old One, Oni, Demon, Archon)
-terrible remorse,WrappedArray(Broken Soul, Griefgall)
-transport via plants,WrappedArray(Glaistig, Fastachee, Loremasters, Sard)
+implosion,WrappedArray(fire-diabolist, shadow-cleric, great-old-one-cthulhu, demon-balor)
+oracle's burden,WrappedArray(fire-giant-doombringer)
+terrible remorse,WrappedArray(broken-soul, griefgall)
+transport via plants,WrappedArray(sard, fastachee, glaistig, nature-scholar)

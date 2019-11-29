@@ -15,23 +15,18 @@ function crawlLien(callback = null) {
     //url du site a scroller
     var url = "http://legacy.aonprd.com/indices/bestiary.html"
 
-    var urlArray = new Array();
 
     request(url, function (error, response, body) {
         if (!error) {
             var $ = cheerio.load(body); //on recupere le body de la page html
 
 
-            var urlsMonsters = $('div.index li').map(function (i, el) {
+            var urlsMonsters = $('li', "#monster-index-wrapper").map(function (i, el) {
                 // this === el
-                return $(this).html();
-            }).get().join('\n');
-            urlArray = urlsMonsters.match(/\/{1}.*html/g);
-            //  console.log(urlsMonsters);
-            //  console.log(urlArray);
-
-
-            if (callback != null) callback(urlArray)
+                return $(this).find('a').attr('href');
+            }).get()
+            
+            if (callback != null) callback(removeDuplicates(urlsMonsters))
 
         } else {
             console.log("We’ve encountered an error: " + error);
@@ -43,53 +38,70 @@ function crawl() {
     var urlCrawl = "http://legacy.aonprd.com";
     var crawlResult = new Array();
     crawlLien((urlArray) => {
-
+       
         //on crawl toutes les urls des monstres pour avoir leurs sorts
+                   
+
         for (var i = 0; i < urlArray.length; i++) {
-            url = urlCrawl + urlArray[i];
-            console.log(url)
+            url = urlCrawl + urlArray[i].match(/\/{1}.*html/g);
+            // console.log(url)
+            let name = urlArray[i].split("#")[1];
+
+            // console.log(name);
             request(url, function (error, response, body) {
                 if (!error) {
                     var $ = cheerio.load(body); //on recupere le body de la page html de chaque monstre
 
-                    var name = $("title").text();
+                    let bodypage = $("body").html()
+                    var index1 = bodypage.indexOf(name);
 
-                    //   console.log(name);
-                    var spells = $('body p').map(function (i, el) {
-                        // this === el
-                        return $(this).html();
-                    }).get().join('\n');
-                    //console.log(spells)
+                    //le nom du monstre est bien dans la page
+                    if (index1 != -1) {
 
-                    var spellsArray = spells.match(/\/spells\/.*?<\/a>/g) //on récupère les sorts
-                    if (spellsArray != null) {
-                        spellsArray = removeDuplicates(spellsArray);
-                        for (var i = 0; i < spellsArray.length; i++) {
+                        console.log(index1)
+                        console.log(name)
 
-                            //on decoupe la chaine de caratères pour n'avoir que le nom du spell
-                            var debut = spellsArray[i].indexOf(">") + 1;
-                            spellsArray[i] = spellsArray[i].slice(debut, -4);
-                            //remplacement des &apos; par ' 
-                            if(spellsArray[i].match("/&apos;/g")){
-                                spellsArray[i] = spellsArray[i].replace('&apos;','\'')
+                        //Il peut y avoir plusieurs monstres ar pages donc on decoupe la partie de la page qui nous intéresse
+
+                        let spell = bodypage.toString().split(name)[1]
+                        spell = spell.split('Statistics', 1)[0]
+                        // console.log(spell)
+
+
+
+                        var spellsArray = spell.match(/\/spells\/.*?<\/a>/g) //on récupère les sorts
+                        if (spellsArray != null) {
+                            spellsArray = removeDuplicates(spellsArray);
+                            for (var i = 0; i < spellsArray.length; i++) {
+
+                                //on decoupe la chaine de caratères pour n'avoir que le nom du spell
+                                var debut = spellsArray[i].indexOf(">") + 1;
+                                spellsArray[i] = spellsArray[i].slice(debut, -4);
+                                //remplacement des &apos; par ' 
+                                if (spellsArray[i].indexOf("&apos;") != -1) {
+                                    spellsArray[i] = spellsArray[i].replace("&apos;", "'")
+                                }
+                                if (spellsArray[i].indexOf("<em>") != -1) {
+                                    spellsArray[i] = spellsArray[i].slice(4, -5);
+
+                                }
+
+                                if (spellsArray[i].indexOf("<i>") != -1) {
+                                    spellsArray[i] = spellsArray[i].slice(3, -4);
+                                }
+
                             }
-                            if (spellsArray[i].indexOf("<em>") != -1) {
-                                spellsArray[i] = spellsArray[i].slice(4, -5);
+                            //  console.log(spellsArray);
+                        } var JSONobj = {
+                            name: name,
+                            spells: spellsArray
+                        };
+                        //console.log(JSONobj);
+                        crawlResult.push(JSONobj);
 
-                            }
 
-                            if (spellsArray[i].indexOf("<i>") != -1) {
-                                spellsArray[i] = spellsArray[i].slice(3, -4);
-                            }
+                    }
 
-                        }
-                        //  console.log(spellsArray);
-                    } var JSONobj = {
-                        name: name,
-                        spells: spellsArray
-                    };
-                    // console.log(JSONobj);
-                    crawlResult.push(JSONobj);
                 } else {
 
                     console.log("We’ve encountered an error: " + error);
@@ -97,8 +109,8 @@ function crawl() {
             });
         }
     });
-
     return crawlResult;
+
 }
 
 

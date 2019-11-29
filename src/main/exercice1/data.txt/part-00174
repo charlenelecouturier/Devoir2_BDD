@@ -1,4 +1,4 @@
-analyze aura,WrappedArray(Aeons, Manasaputra, Vishap, Grim Reaper, Dragon, Esoteric)
-call animal,WrappedArray(Frost Giants)
-find the path,WrappedArray(Archons, Dragon, Ravener, Agathion, Bards, Thriae, Titan, Loremasters)
-speak with plants,WrappedArray(Treant, Druids, Erlking, Kami, Azata, Frontier, Dryad, Broken Soul, Fungal Creature, Hamadryad, Fastachee, Bards, Lizardfolk, Tunche, Kapre, Loremasters)
+analyze aura,WrappedArray(vishap, aeon-lipika, ancient-astral-dragon, manasaputra-manu, adult-astral-dragon)
+call animal,WrappedArray(frost-giant-jarl)
+find the path,WrappedArray(archon-exscinder, titan,-hekatonkheires, master-historian, rival-explorer, thriae-queen)
+speak with plants,WrappedArray(fey-friend, fastachee, tunche, kapre, azata-lillend, hermit, fungal-creature, hamadryad, dryad, broken-soul, castaway, tribal-leader, erlking, nature-scholar)

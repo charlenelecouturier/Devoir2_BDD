@@ -1,4 +1,4 @@
-create greater undead,WrappedArray(Bodak, Sorcerers, Mummified Creature, Wyrmwraith, Totenmaske, Wizards)
-project image,WrappedArray(Dragon, Mothman, Worm That Walks, Aboleth, Scylla, Bards, Great Old One, Demon, Arcane Tricksters)
-symbol of insanity,WrappedArray(Deep Ones, Demons, Demon Lord, Great Old One, Shining Child)
-undeath to death,WrappedArray(Pyschopomp, Sorcerers, Angel)
+create greater undead,WrappedArray(wyrmwraith, grand-necromancer, arisen-sorcerer)
+project image,WrappedArray(demon-marilith, god-stealer, master-spy, aboleth, worm-that-walks, spellsword, great-old-one-hastur, scylla, mothman, notorious-foil)
+symbol of insanity,WrappedArray(great-old-one-cthulhu, demon-lord-dagon, deep-one-elder, shining-child, great-old-one-bokrug, great-old-one-hastur, deep-one-hybrid, demon-seraptis)
+undeath to death,WrappedArray(angel-solar, psychopomp-yamaraj, arisen-sorcerer)

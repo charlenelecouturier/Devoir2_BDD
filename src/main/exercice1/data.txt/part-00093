@@ -1,3 +1,2 @@
-Burrow,WrappedArray(Eidolon)
-commune with nature,WrappedArray(Alraune, Giant, Gegenees, Rangers, Leshy, Fastachee, Lizardfolk, Seilenos, Kami, Formian, Adlet)
-forbid action,WrappedArray(Serpentfolk, Gnolls, Dragon, Esoteric)
+commune with nature,WrappedArray(lizardfolk-clutch-mother, seilenos, alraune, fastachee, supreme-hunter, giant-cliff, formian-queen, venerable-mother)
+forbid action,WrappedArray(gnoll-chosen, adult-occult-dragon, serpentfolk-high-priest, ancient-occult-dragon, young-occult-dragon)

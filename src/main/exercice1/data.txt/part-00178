@@ -1,3 +1,3 @@
-illusory script,WrappedArray(Bards, Devils)
-power word stun,WrappedArray(Asura, Sorcerers, Clerics, Devil, Humbaba, Scylla, Demon Lord, Angel, Demon, Arcane Tricksters, Angels)
-shatter,WrappedArray(Gremlin, Seaweed Siren, Graven Guardian, Sorcerers, Dragon, Clerics, Korred, Golem, Mystic Theurges, Sahuagin, Bards, Protean, Spriggan, Caryatid Column, Cold Rider, Arcane Archers, Wizards)
+illusory script,WrappedArray(master-spy, cruel-instructor, devil-heresy)
+power word stun,WrappedArray(fate-bound-mage, god-stealer, angel-empyrean, demon-lord-kostchtchie, devil-pit-fiend, angel-solar, demon-glabrezu, demon-balor, scylla, angel-planetar, humbaba)
+shatter,WrappedArray(seaweed-siren, master-universalist, korred, sahuagin-underpriestess, sound-warrior, sahuagin-high-priestess, spriggan, street-artist, tournament-champion, sacred-sorcerer, elemental-priest, cold-rider, tunnel-drummer)

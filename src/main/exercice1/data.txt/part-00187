@@ -1,2 +1,2 @@
-lead blades,WrappedArray(Hobgoblins, Frost Giants, Duergar)
-locate object,WrappedArray(Denizen of Leng, Asura, Dragon, Guardian Dragon, Clerics, Sphinx, Pathfinder Chroniclers, Mummified Creature, Ratfolk, Isitoq, Thriae, Loremasters, Arcane Tricksters, Scholars, Wizards)
+lead blades,WrappedArray(duergar-lieutenant, frost-giant-jarl, hobgoblin-lieutenant)
+locate object,WrappedArray(denizen-of-leng, mummified-creature, aloof-scholar, carousing-champion, arcanothief, master-historian, guardian-dragon, divine-loremaster)

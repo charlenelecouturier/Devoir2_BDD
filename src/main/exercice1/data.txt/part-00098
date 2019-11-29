@@ -1,2 +1,3 @@
-create undead,WrappedArray(Sorcerers, Crypt Thing, Huecuva, Devil, Tzitzimitl, Mummy, Witchfire, Wyrmwraith, Div, Wizards)
-waves of fatigue,WrappedArray(Wizards, Colossus, Daemon, Sorcerers, Imperial Dragon, Aoandon, Gnolls, Winter Hag, Angel, Div, Dragon, Esoteric, Lich, Nue)
+create undead,WrappedArray(tzitzimitl, wyrmwraith, devil-pit-fiend, undead-creator, grand-necromancer, arisen-sorcerer, div-sepid)
+hunter's howl,WrappedArray(sahuagin-shark-sentry)
+waves of fatigue,WrappedArray(colossus-flesh, div-shira, gnoll-bouda, nue, pyromaniac-mage, grand-necromancer, ancient-dream-dragon, angel-solar, ancient-astral-dragon, undead-creator, winter-hag, arisen-sorcerer, aoandon, angel-planetar)

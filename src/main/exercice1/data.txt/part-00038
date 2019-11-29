@@ -1,3 +1,2 @@
-hold portal,WrappedArray(Soulbound Mannequin, Clockwork, Divine Guardian)
-polymorph any object,WrappedArray(Golem, Lizardfolk, Seilenos, Protean, Wizards)
-psychic crush IV,WrappedArray(Dragon, Esoteric)
+hold portal,WrappedArray(divine-guardian, soulbound-mannequin)
+polymorph any object,WrappedArray(seilenos, puppet-master)

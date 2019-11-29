@@ -1,4 +1,4 @@
-daze monster,WrappedArray(Thought Eater, Dark Slayer, Huldra, Aatheriexa, Pathfinder Chroniclers, Clockwork, Cephalophore, Caulborn, Necrophidius, Imperial Dragon, Serpentfolk, Grioth, Intellect Devourer, Encantado, Wizards)
-ego whip IV,WrappedArray(Vishap)
-enlarge person,WrappedArray(Sorcerers, Clerics, Giant, Dragon Disciples, Genie, Bugbears, Frost Giants, Mephit, Brigands, Ratfolk, Eldritch Knights, Warriors, Mystic Theurges, Orcs, Sahuagin, Boggards, Demon Lord, Gnolls, Bards, Fire Giants, Fighters, Ogres, Duergar, Barbarians, Wizards)
-enshroud thoughts,WrappedArray(Manasaputra, Apkallu)
+daze monster,WrappedArray(aloof-scholar, huldra, caulborn, seductive-enchanter, aetheriexa, intellect-devourer, encantado, dark-slayer, grioth, thought-eater)
+ego whip IV,WrappedArray(vishap)
+enlarge person,WrappedArray(dust-mephit, cautious-mage, orc-witch-doctor, duergar-sergeant, earth-mephit, bugbear-bloodmage, ogre-king, gnoll-clerics, bugbear-cultist, duergar-captain, duergar-high-priest, duergar-hammer, ogre-priest, demon-lord-kostchtchie, storm-prophet, tavern-champion, tribal-seer, frost-giant-battle-priest, death-dealer, svathurim, gnoll-chosen, demon-blooded-sorcerer, frost-giant-ice-mage, celestial-theurge, duergar-slaver, sahuagin-mutants, air-mephit, tainted-sorcerer, profane-general, fire-giant-magmablade, shieldbreaker)
+enshroud thoughts,WrappedArray(apkallu, manasaputra-manu)

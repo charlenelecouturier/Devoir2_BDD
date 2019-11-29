@@ -1,4 +1,4 @@
-demand offering,WrappedArray(Vishap)
-dream voyage,WrappedArray(Dragon, Esoteric, Lotus Tree)
-silence,WrappedArray(kyton, Dragon, Vampires, Clerics, Dragon Disciples, Devil, Entertainers, Sceaduinar, Drow, Ratfolk, Seers, Rokurokubi, Heretics, Temple, Ankou, Shadowdancers, Mystic Theurges, Bards, Couatl, Fighters, Demon, Arcane Archers, Ogres)
-zone of silence,WrappedArray(Thriae Constructor, Bards, Devils)
+demand offering,WrappedArray(vishap)
+dream voyage,WrappedArray(lotus-tree)
+silence,WrappedArray(midnight-dancer, dragon-chieftain, couatl, kyton-ostiarius, tournament-champion, arcane-pretender, sceaduinar, fire-cleric, devil,-contract, cult-leader, celebrity-bard, vivisectionist-cleric, shadow-cleric, death-master, medium, drow-demonic-champion, rival-explorer, spellsword, ankou, tribal-leader, ogre-destroyer, demon-nabasu, notorious-foil)
+zone of silence,WrappedArray(master-spy, devil-heresy)

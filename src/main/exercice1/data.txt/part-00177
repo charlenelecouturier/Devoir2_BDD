@@ -1,2 +1,3 @@
-hold monster,WrappedArray(Asura, Dragon, Alraune, Yithian, Cloaker, Azata, Caulborn, Formian, Jorogumo, Inevitable, Devilbound Creature, Daemon, Axiomite, Mystic Theurges, Agathion, Tyrant Jelly, Bards, Nightshade, Angel, Devils, Div, Loremasters, Arcane Tricksters, Wizards)
-resurrection,WrappedArray(Baykok, Dragon, Mummy, Soul Eater, Cephalophore, Angels, Golem, Shabti, Mummy, Swamp, Qlippoth, Phoenix, Demilich, Intellect Devourer, Nemhain, Angel, Archon)
+hold monster,WrappedArray(tyrant-jelly, jorogumo, caulborn, azata-ghaele, div-sepid, god-stealer, alraune, axiomite, devil-nemesis, yithian, formian-myrmarch, demonologist, tunnel-drummer, puppet-master)
+order's wrath,WrappedArray(devil-barbed, high-priest, apkallu, sacred-guardian, axiomite, divine-loremaster)
+resurrection,WrappedArray(angel-empyrean, angel-solar)
