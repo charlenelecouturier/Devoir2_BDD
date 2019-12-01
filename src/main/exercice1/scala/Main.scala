@@ -1,12 +1,11 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{Row, SparkSession, functions}
 import org.apache.spark.sql.functions._
-import org.apache.spark.sql.Column
-
-import scala.collection.mutable
-
 
 object Main extends App {
+
+
+
   val conf = new SparkConf()
     .setAppName("Spark devoir 2")
     .setMaster("local[*]")
@@ -37,17 +36,21 @@ val viewExploded= monsters.withColumn("spells", explode($"spells"))
   }
 
 
+  //3 methodes of saving datas
 
-//2 methodes of saving datas
+  //save the dataframe as JSON
+  view.coalesce(1).write.format("json").save("./src/main/exercice1/data.json")
+
 
 //save the rdd as txt
   view.rdd.map(x => x.mkString(",")).saveAsTextFile("./src/main/exercice1/data.txt")
 
   //save the dataframe as csv
   val stringify = udf((vs: Seq[String]) => vs match {
-    case null => null
-    case _    => s"""[${vs.mkString(",")}]"""
+   case null => null
+   case _    => s"""[${vs.mkString(",")}]"""
   })
   view.withColumn("monsters", stringify($"monsters")).write.csv("./src/main/exercice1/data.csv")
+
 
 }
