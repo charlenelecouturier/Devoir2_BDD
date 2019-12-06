@@ -6,6 +6,9 @@
         </div>-->
         <div class="col-sm-8 col-sm-offset-2">
             <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+                    <fieldset>
+                            <legend>Recherche de sorts dans la base de donnée</legend>
+
                 <div class="form-group">
                     <label for="mots">
                         Mots clés
@@ -16,7 +19,7 @@
                     <label formArrayName="component"
                         *ngFor="let order of form.controls.component.controls; let i = index">
                         {{componentsdata[i].name}}
-                        <input type="checkbox" [formControlName]="i">
+                        <input class="check" type="checkbox" [formControlName]="i">
                     </label>
                     <!-- <input type="checkbox" formControlName="component"> Verbal
             <input type="checkbox" name="composante"  value="S" formControlName="component"> Somatic
@@ -33,7 +36,7 @@
                 </div>
                 <label formArrayName="class" *ngFor="let o of form.controls.class.controls; let i = index">
                     {{classdata[i].name}}
-                    <input type="checkbox" [formControlName]="i">
+                    <input class="check" type="checkbox" [formControlName]="i">
                 </label>
 
                 <!-- <div class="form-group" >
@@ -61,6 +64,8 @@
           </div>
     --> <br><br>
                 <button class="btn btn-primary" type="submit">Rechercher</button>
+           
+            </fieldset>
             </form>
             <br>
             <br>

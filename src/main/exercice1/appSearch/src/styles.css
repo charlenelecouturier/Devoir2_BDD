@@ -15,3 +15,7 @@ text-align: center;
 #Global #droite {
     margin-left:60%    
 }
+
+input.check{
+margin-right: 15px;
+}
