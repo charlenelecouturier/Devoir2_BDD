@@ -9,14 +9,10 @@ export class CommonService {
 
 GetMonsters(){
 return this.http.get<any>('http://localhost:3000/api/getMonster');
-
-
-
 }
 
 
 getSpellsbyKeyWords(mots){
-  return this.http.post<any>('http://localhost:3000/api/Searsh',mots);
-
+  return this.http.post<any>('http://localhost:3000/api/Search',mots);
 }
 }
