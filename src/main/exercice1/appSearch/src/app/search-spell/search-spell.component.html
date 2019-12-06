@@ -69,26 +69,20 @@
                 <br>
                 <div id="gauche">
                     <table>
+
                         <tr>
+                                <th> </th>
                             <th>Spells</th>
                         </tr>
-                        <tr *ngFor="let s of result;let i = index">
-                            <!-- <td *ngIf="s.name!=''">Index: {{i+1}}</td> -->
-                           <!--  <td>{{s.name}}</td> -->
-                            <button mat-raised-button routerLink='/spell/{{s.name}}'>{{s.name}}</button>
-                        </tr>
+                     <tr *ngFor="let s of result;let i = index">
+                        <td *ngIf="s.name!=''">{{i+1}}</td>
+                             <!--  <td>{{s.name}}</td> -->
+                          <td>  <button mat-raised-button routerLink='/spell/{{s.name}}'>{{s.name}}</button></td>
+                       </tr> 
                     </table>
                 </div>
                 <div id="droite">
-                    <table>
-                        <tr>
-                            <th>Monsters</th>
-                        </tr>
-                        <tr *ngFor="let m of result.monsters;let i = index">
-                            <td *ngIf="m.name!=''">Index: {{i+1}}</td>
-                            <td>{{m.name}}</td>
-                        </tr>
-                    </table>
+                   
                 </div>
             </div>
         </div>
