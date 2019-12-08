@@ -8,7 +8,7 @@ function start() {
     var Schema = mongo.Schema;
     var MonstersSchema = new Schema({
         spells: { type: String },
-        name: { type: Array }
+        monsters:  { type: Array }
     }, { versionKey: false });
 
     var SpellsSchema = new Schema({
@@ -43,35 +43,64 @@ function getSpells(req, res, model) {
     mots = req.body.mots;
     level = req.body.level;
     component = req.body.component;
-    classe = req.body.class;    
-    
-    var query= new Object;
-    if(mots!=null){
-        
+    classe = req.body.class;
+
+    var query = new Object;
+    if (mots != null) {
+
     }
-    if(level!=null){    
-        query.level = {$lte:level}
+    if (level != null) {
+        query.level = { $lte: level }
     }
-    if(component[0]!=undefined){
-        query.components = {$all:component}
+    if (component[0] != undefined) {
+        query.components = { $all: component }
     }
-    if(classe[0]!=undefined){
-        query.class = {$all:classe}
+    if (classe[0] != undefined) {
+        query.class = { $all: classe }
     }
-    model.spell.find(query, 
-            function (err, data) {
-        if (err) {
-            res.send(err);
-        } else {
-            res.send(data);
-        }
-        console.log(data)
-    });
+    model.spell.find(query,
+        function (err, data) {
+            if (err) {
+                res.send(err);
+            } else {
+                res.send(data);
+            }
+            console.log(data)
+        });
 }
 
+function getSpellDef(req, res, model) {
+    var result = new Object;
+    model.spell.find({ name: req.body.spellName },
+        (err, data) => {
+            if (err) {
+                /* res.send(err); */
+                console.log(err)
+            } else {
+                result.spell = data[0]
+                
+                model.monster.find({ spells: { '$regex': '^' + req.body.spellName + '$', $options: 'i' } },
+                    (err, data2) => {
+                        if (err) {
+                            /* res.send(err); */
+                            console.log(err)
+                        } else {
+                        
+                            result.monsters = data2[0].monsters;
+                            console.log(result)
+                            
+                            res.send(result);
+                        }
+                    });
+                //res.send(data);
+            }
+        });
+
+}
 
 module.exports = {
     start,
     getMonster,
-    getSpells
+    getSpells,
+    getSpellDef
 }
