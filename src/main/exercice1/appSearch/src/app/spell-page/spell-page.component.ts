@@ -24,6 +24,7 @@ export class SpellPageComponent implements OnInit {
       res=> {
         console.log(res)
          this.result = res;
+         
        }
      );
   }

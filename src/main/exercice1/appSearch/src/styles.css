@@ -10,12 +10,37 @@ text-align: center;
 }
 #Global #gauche {
     float:left;
-    width:60%;
+    width:30%;
+  
+
 }
 #Global #droite {
-    margin-left:60%    
+    margin-left:30%  ;  
+    margin-right:15%;
 }
 
 input.check{
 margin-right: 15px;
+}
+
+   ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+   .spelldisplay{
+text-align: center;
+
+   }
+.spelltable table, .spelltable tr, .spelltable td {
+    border: 1px solid black;
+}
+
+.lign{
+    text-align: center;
+     
+}
+img {
+	width: 300px;
+	height: 400px;
 }
