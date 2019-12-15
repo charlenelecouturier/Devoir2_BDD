@@ -1,10 +1,12 @@
 var mongo = require("mongoose");
 
 function start() {
+    mongo.set('useCreateIndex', true);
     var db = mongo.connect("mongodb://localhost:27017/DB", { useNewUrlParser: true, useUnifiedTopology: true }, function (err, response) {
         if (err) { console.log(err); }
         else { console.log('connected to DB'); }
     });
+
     var Schema = mongo.Schema;
     var MonstersSchema = new Schema({
         spells: { type: String },
@@ -17,8 +19,8 @@ function start() {
         level: { type: Number },
         components: { type: Array },
         spellres: { type: String },
-        description: { type: String }
-    }, { versionKey: false });
+        description: { type: String, index :'text' }
+    }, { versionKey: false })/* .index({description:'text'}) */;
 
     var model = {
         monster: mongo.model('monsters', MonstersSchema, 'monsters'),
@@ -44,10 +46,9 @@ function getSpells(req, res, model) {
     level = req.body.level;
     component = req.body.component;
     classe = req.body.class;
-
     var query = new Object;
     if (mots != null) {
-
+        query.$text = { $search : mots }     
     }
     if (level != null) {
         query.level = { $lte: level }
@@ -58,6 +59,7 @@ function getSpells(req, res, model) {
     if (classe[0] != undefined) {
         query.class = { $all: classe }
     }
+    console.log(query)
     model.spell.find(query,
         function (err, data) {
             if (err) {
@@ -65,12 +67,13 @@ function getSpells(req, res, model) {
             } else {
                 res.send(data);
             }
-            console.log(data)
+            //console.log(data)
         });
 }
 
 function getSpellDef(req, res, model) {
     var result = new Object;
+    console.log(req.body)
     model.spell.find({ name: req.body.spellName },
         (err, data) => {
             if (err) {
@@ -85,8 +88,9 @@ function getSpellDef(req, res, model) {
                             /* res.send(err); */
                             console.log(err)
                         } else {
-                        
-                            result.monsters = data2[0].monsters;
+                            
+                            if(data2[0]!=undefined) result.monsters = data2[0].monsters;
+                           
                             console.log(result)
                             
                             res.send(result);
@@ -95,7 +99,6 @@ function getSpellDef(req, res, model) {
                 //res.send(data);
             }
         });
-
 }
 
 module.exports = {

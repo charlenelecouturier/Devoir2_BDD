@@ -40,8 +40,8 @@ classdata;
     ];
 
     this.form = this.formBuilder.group({
-      mots:'',
-      level:'',
+      mots:null,
+      level:null,
       component: new FormArray([]),
       class: new FormArray([]),
     
