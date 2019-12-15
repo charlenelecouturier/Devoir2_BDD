@@ -25,8 +25,9 @@ object Main extends App {
   // The inferred schema can be visualized using the printSchema() method
  // monsters.show();
 val viewExploded= monsters.withColumn("spells", explode($"spells"))
+  viewExploded.show()
   var view = viewExploded.groupBy("spells").agg(functions.collect_set("name") as "monsters");
-
+view.show()
 
 
 
