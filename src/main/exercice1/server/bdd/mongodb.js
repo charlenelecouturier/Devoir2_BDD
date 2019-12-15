@@ -94,7 +94,7 @@ function getSpellDef(req, res, model) {
         spellName = req.body.spellName;
     }
 
-    model.spell.find({ name: spellName },
+    model.spell.find({ name: req.body.spellName },
         (err, data) => {
             if (err) {
                 /* res.send(err); */
