@@ -10,7 +10,7 @@ function start() {
     var Schema = mongo.Schema;
     var MonstersSchema = new Schema({
         spells: { type: String },
-        monsters:  { type: Array }
+        monsters: { type: Array }
     }, { versionKey: false });
 
     var SpellsSchema = new Schema({
@@ -19,7 +19,7 @@ function start() {
         level: { type: Number },
         components: { type: Array },
         spellres: { type: String },
-        description: { type: String, index :'text' }
+        description: { type: String, index: 'text' }
     }, { versionKey: false })/* .index({description:'text'}) */;
 
     var model = {
@@ -48,7 +48,7 @@ function getSpells(req, res, model) {
     classe = req.body.class;
     var query = new Object;
     if (mots != null) {
-        query.$text = { $search : mots }     
+        query.$text = { $search: mots }
     }
     if (level != null) {
         query.level = { $lte: level }
@@ -73,26 +73,46 @@ function getSpells(req, res, model) {
 
 function getSpellDef(req, res, model) {
     var result = new Object;
+    var spellName;
     console.log(req.body)
-    model.spell.find({ name: req.body.spellName },
+    if (req.body.spellName.match(/,/g)) {
+        var spellName = req.body.spellName.split(",")[0]
+        /* var particle = req.body.spellName.split(",")[1]
+        if(particle.match(/Mythic/g)) particle = Mythic
+        switch (particle) {
+            case Greater:
+                break;
+            case Lesser:    
+                break;
+            case Mass:
+                break;
+            case Mythic:
+                break;
+        } */
+        console.log(spellName)
+    } else {
+        spellName = req.body.spellName;
+    }
+
+    model.spell.find({ name: spellName },
         (err, data) => {
             if (err) {
                 /* res.send(err); */
                 console.log(err)
             } else {
                 result.spell = data[0]
-                
-                model.monster.find({ spells: { '$regex': '^' + req.body.spellName + '$', $options: 'i' } },
+
+                model.monster.find({ spells: { '$regex': '^' + spellName + '$', $options: 'i' } },
                     (err, data2) => {
                         if (err) {
                             /* res.send(err); */
                             console.log(err)
                         } else {
-                            
-                            if(data2[0]!=undefined) result.monsters = data2[0].monsters;
-                           
+
+                            if (data2[0] != undefined) result.monsters = data2[0].monsters;
+
                             console.log(result)
-                            
+
                             res.send(result);
                         }
                     });
