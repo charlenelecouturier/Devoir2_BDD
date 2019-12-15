@@ -1,7 +1,7 @@
 <div id="Global" class="container spelltable">
 <div class="container">
 
-    <h1>{{result.spell.name}}</h1>
+    <h1>{{name}}</h1>
 <br>
    <div id="gauche">
 <img src="assets/images/{{result.spell.name | lowercase}}.png">
@@ -46,6 +46,21 @@
           <td class="lign">  <b> Description  </b></td>
         <td class="spelldisplay">{{result.spell.description}}</td></tr>
  
+        <tr>
+        <td class="lign">
+              <b>    Monsters</b>
+          </td>
+          <td>
+              <ul *ngFor="let s of result.monsters;let i = index">
+  
+                  <li>
+                          {{s}}
+                  </li>
+              </ul>
+          </td>
+          
+      
+         </tr> 
 </table>
  
 

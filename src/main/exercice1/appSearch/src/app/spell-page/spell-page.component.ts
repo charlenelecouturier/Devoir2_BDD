@@ -10,8 +10,8 @@ import { switchMap } from 'rxjs/operators';
 })
 export class SpellPageComponent implements OnInit {
 
-  result=[];
-
+  result={spell:{name:""}};
+name="";
   constructor(private newService :CommonService,  
     private route: ActivatedRoute
     ) {}
@@ -24,7 +24,15 @@ export class SpellPageComponent implements OnInit {
       res=> {
         console.log(res)
          this.result = res;
-         
+         this.name=this.result.spell.name
+          if (this.result.spell.name.indexOf("'")!=-1){
+
+            this.result.spell.name=this.result.spell.name.replace(/'s/g,"_s");
+            console.log(this.result.spell.name)         
+         }
+
+       
+      
        }
      );
   }
