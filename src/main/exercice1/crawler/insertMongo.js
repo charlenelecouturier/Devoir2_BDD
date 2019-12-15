@@ -33,6 +33,6 @@ function insertMongo(doc) {
 
 
 
-var monJson = JSON.parse(fs.readFileSync('part-00000-4823a1dc-2cd2-4da1-a386-80e9af1b0079-c000.json', 'utf8'));
+var monJson = JSON.parse(fs.readFileSync('monstersdatainverse.json', 'utf8'));
 
 insertMongo(monJson)
